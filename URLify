@@ -1,0 +1,10 @@
+function array(str){
+
+let string=str.split(' ').join('%20')
+
+return string
+}
+
+console.log(array('tauhida parveen'))
+
+console.log(array("www.thinkful.com /tauh ida parv een"))

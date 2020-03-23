@@ -1,0 +1,23 @@
+function removeChar(str,str2){
+let length=str2.length
+let arr=str2.split('')
+let input=str.split('')
+let result = []
+
+  
+
+    for(let i=0; i<length; i++){
+        for(let j=0; j<input.length; j++){
+    if(input[j]!== arr[i]){
+      result.push(input[j])
+    }
+
+  }
+
+}
+
+
+  return result
+}
+
+console.log(removeChar('Battle of the Vowels: Hawaii vs. Grozny', 'aeiou'))

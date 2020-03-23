@@ -1,0 +1,6 @@
+function maxArr(arr){
+arr.sort()
+return arr.pop()
+}
+
+console.log(maxArr([1,15,2,5,6,89,0,23,1]))
